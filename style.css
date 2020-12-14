@@ -1,0 +1,95 @@
+.menu{
+width: 30%;
+background-color: DarkSlateGray;
+color: snow;
+border-radius: 10px;
+font-size: 30px;
+padding: 20px 10px;
+position: fixed;
+top: 0px;
+left: 0px;
+height: 100%;	
+}
+.menu a{
+width: 100%;
+/*padding: 10px 20px;*/
+text-decoration: none;
+color:inherit;
+margin: 50px 0px;
+box-sizing: border-box;
+height: 50px;
+}
+.menu a:hover{
+background-color: Indigo;
+color: MintCream;	
+}
+.main{
+margin-left:40%;
+width: 60%;
+}
+.basic h1{
+font-size: 50px;	
+}
+body{
+font-family: "Poppins", sans-serif;
+margin: 0px;
+line-height: 1.5;	
+}
+hr{
+width: 90%;
+border: 5px solid DarkSlateGray;
+border-radius: 10px;
+margin: 30px 0px;	
+}
+.solar_system img{
+width: 90%;	
+}
+.solar_system p{
+text-align: justify;
+width: 90%; 	
+}
+.Earth img{
+width: 70%;
+filter: blur(1px);
+}
+.Earth div{
+display: inline-block;
+width: 20%;
+vertical-align: top;
+border: 8px coral solid;
+padding: 20px 10px;
+margin: 10px 10px;	
+border-radius: 9px;
+filter: sepia(50%);
+}
+.sun img{
+width: 45%;
+height: 280px;
+border-radius: 8px;
+margin: 26px 13px;
+opacity: 0.7;	
+}
+.sun img:hover{
+opacity: 1;	
+}
+.sun{
+width: 100%;	
+}
+.Planets{
+width: 100%;
+}
+table{
+border: 10px solid Maroon;
+border-collapse: collapse;
+width: 80%;
+}
+td{
+border: 5px solid Maroon;
+vertical-align: top;
+}
+.strip{
+background-color: black;
+color: white;
+width: 100%;	
+}
+
